@@ -25,7 +25,7 @@
 }
 section{
     padding: 22px 30px;
-    margin: 11px 10px;
+    margin: 11px 25px;
 }
 body{
     background: #dcdcdc26;
@@ -1744,5 +1744,12 @@ background:darkgoldenrod;
 
     .third .row .col-md-6 .content {
         top: 0;
+    }
+}
+
+
+@media(max-width:768px){
+    section{
+        margin: 11px 10px;
     }
 }
